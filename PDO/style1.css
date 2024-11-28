@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif; /* Ganti font menjadi Arial */
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Warna latar belakang */
+}
+
+section {
+    background-color: #c7d2e0; /* Warna latar belakang section */
+    border-radius: 40px; /* Sudut membulat pada section */
+    padding: 25px; /* Padding di dalam section */
+    margin: 20px; /* Margin di luar section */
+    box-shadow: 0 2px 4px rgba(247, 22, 22, 0.1); /* Efek bayangan pada section */
+}
+
+h2 {
+    color: #000000; /* Warna teks h2 */
+    margin-bottom: 40px; /* Jarak bawah h2 */
+    text-align: center;
+}
+
+form {
+    display: block;
+    flex-direction: column;
+    color: #000000;
+}
+
+label {
+    margin-bottom: 5px; /* Jarak bawah label */
+    font-weight: bold; /* Tebal pada label */
+}
+
+input[type="text"], input[type="number"], input[type="date"] {
+    padding: 8px; /* Padding di dalam input */
+    margin-bottom: 15px; /* Jarak bawah input */
+    border: 1px solid #123186; /* Garis border pada input */
+    border-radius: 5px; /* Sudut membulat pada input */
+    width: 100%; /* Lebar input 100% */
+    font-size: medium;
+}
+
+input[type="submit"] {
+    background-color: #215b99; /* Warna latar belakang tombol submit */
+    color: #ffffff; /* Warna teks tombol submit */
+    border: none; /* Menghilangkan border tombol submit */
+    padding: 10px 20px; /* Padding tombol submit */
+    border-radius: 4px; /* Sudut membulat tombol submit */
+    cursor: auto; /* Pointer saat hover di tombol submit */
+    font-size: 15px; /* Ukuran font tombol submit */
+}
+
+input[type="submit"]:hover {
+    background-color: #2ca3e7; /* Warna latar belakang saat hover */
+}
+
+table {
+    width: 100%; /* Lebar tabel 100% */
+    background-color: #ffffff;
+    border-collapse: collapse; /* Menggabungkan border sel tabel */
+    margin-top: 20px; /* Margin atas tabel */
+}
+
+th, td {
+    padding: 10px; /* Padding di dalam sel tabel */
+    border: 1px solid #000000; /* Garis border pada sel tabel */
+    text-align: left; /* Rata kiri teks pada sel tabel */
+}
+
+th {
+    text-align: center;
+    background-color: #e29631; /* Warna latar belakang header tabel */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ffffff; /* Warna latar belakang baris genap */
+}
+
+#chiko{
+    background-color: hsl(34, 56%, 60%);
+    text-align: center;
+    
+}
+
+
+ 
